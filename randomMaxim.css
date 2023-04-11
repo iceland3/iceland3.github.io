@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Faster+One&family=Handlee&family=Metal+Mania&family=Nosifer&family=Noto+Sans+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'rockwell';
+}
+
+body {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+body::after{
+    content: "";
+    background: url(./backgroundImg.png);
+    background-size: cover;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 200px 50px;
+}
+
+section div {
+    padding: 10px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+footer div {
+    font-size: 0.85em;
+    display: flex;
+    justify-content: center;
+}
